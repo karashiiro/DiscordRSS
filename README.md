@@ -7,6 +7,10 @@ Make sure you have a bot token for the Discord API.
 
 Download the program and Node.js v10+, and run `npm install` to set it up. Then just run the batch file or `node .` to start it.
 
+## Configuration
+Set `mod_roles` in the configuration file generated on the first run to an array including roles authorized
+to modify server clocks. This has some default values that may or may not work out of the box.
+
 ## Usage
 
 Subscribe the current channel to a feed:
